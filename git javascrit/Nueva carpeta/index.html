@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos personales</title>
+</head>
+<body>
+    <div>
+        <h2>Formulario de registro</h2>
+    </div>
+  
+        
+        <div>
+            <label for="">nombre</label>
+            <input type="text" id="nom">
+        </div>
+        <div>
+            <label for="">fecha_nacimiento</label>
+            <input type="date" id="fch">
+        </div>
+        <div>
+            <label for="">edad</label>
+            <input type="text" id="ed">
+        </div>
+        <div>
+            <label for="">sexo</label>
+            <input type="text" id="x">
+        </div>
+        <div>
+            <button type="submit" onclick="registrar()" >Registrar</button>
+        </div>
+        
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>nombre</th>
+                    <th>fecha_nacimiento</th>
+                    <th>edad</th>
+                    <th>sexo</th>
+                </tr>
+            </thead>
+            <tbody id="tablaDatos"></tbody>
+        </table>   
+   <script src="java/scrit.js"></script>
+</body>
+</html>
